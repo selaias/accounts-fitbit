@@ -1,4 +1,4 @@
-# accounts-strava
+# accounts-fitbit
 
 Login service for Fitbit accounts in Meteor
 
