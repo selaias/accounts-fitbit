@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
   
-  api.use('selaias:fitbit@0.1.0', ['client', 'server']);
+  api.use('selaias:fitbit@0.1.1', ['client', 'server']);
   
   api.addFiles("fitbit.js");
 });
