@@ -1,6 +1,6 @@
 Package.describe({
   name: 'selaias:accounts-fitbit',
-  version: '0.1.0',
+  version: '0.1.1',
   summary: 'Login service for Fitbit accounts',
   git: 'https://github.com/selaias/accounts-fitbit.git',
   documentation: 'README.md'
