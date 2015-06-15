@@ -1,6 +1,6 @@
 Package.describe({
   name: 'selaias:accounts-fitbit',
-  version: '0.1.1',
+  version: '0.2.0',
   summary: 'Login service for Fitbit accounts',
   git: 'https://github.com/selaias/accounts-fitbit.git',
   documentation: 'README.md'
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
   
-  api.use('selaias:fitbit@0.1.1', ['client', 'server']);
+  api.use('selaias:fitbit@0.2.0', ['client', 'server']);
   
   api.addFiles("fitbit.js");
 });
